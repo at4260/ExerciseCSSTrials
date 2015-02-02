@@ -2,38 +2,38 @@
 <html>
     <head>
         <style>
-            .flagblock{
+            .redbox{
+                background-color: #D81F3E;
+                width: 100px; 
+                height: 200px;
+                display: inline-block;
+            }
+            .bluebox{
+                background-color: #3E2D8B;
+                width: 100px;
+                height: 200px;  
+                display: inline-block;
+            }
+            .yellowbox{
+                background-color: yellow;
                 width: 100px;
                 height: 200px;
-                /*display: inline-block;*/
-                float: left;
-            }
-            #bluebox{
-                background-color: #3E2D8B;
-            }
-            #redbox{
-                background-color: #D81F3E;
-            }
-            #yellowbox{
-                background-color: yellow;
+                display: inline-block;
             }
             .flag{
-                display: inline-block;
-                border: solid 5px black;
+                border-style: solid;
+                border-width: 5px;
+                width: 300px;
+                height: 200px;
             }
             body{
-                margin: 0;
+                margin: 0px;
             }
         </style>
     </head>
     <body>
         <div class="flag">
-            <div class="flagblock" id="bluebox">
-            </div>
-            <div class="flagblock" id="yellowbox">
-            </div>
-            <div class="flagblock" id="redbox">
-            </div>
+            <div class="bluebox"></div><div class="yellowbox"></div><div class="redbox"></div>
         </div>
     </body>
 </html>
